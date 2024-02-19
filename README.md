@@ -1,7 +1,6 @@
 
 ### 프로젝트 명 : 차량 얼굴인식 및 졸음운전 방지 서비스 (Facial recognition & drawsy detection Project)
 ---
-![React](https://img.shields.io/badge/react-ffffff?style=for-the-badge&logo=react)
 
 - **프로젝트 소개**
 
