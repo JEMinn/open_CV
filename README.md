@@ -36,13 +36,22 @@
        - 각 격자의 LBP 히스토그램을 하나의 특징 벡터로 결합
        - 결합된 특징 벡터를 사용하여 얼굴을 인식하거나 분류됨
 
+  2. LANDMARK
+    - 'dlib'에서 제공되는 사전 훈련된 모델로, 얼굴(눈, 코, 입, 귀 등)에 대한 68개의 랜드마크를 예측하는 데 사용
+    - 얼굴 보정, 감정 인식, 표정 분석, 안경 착용 여부 감지 등의 작업에 활용
+    - 해당 프로젝트는 졸음운전 방지를 기반으로 기획되어 눈에 대한 랜드마크 이용하였음
+    - 눈의 종횡비로 눈의 열린 정도(가로 및 세로)를 측정하여 아래의 사진과 같이 졸음 탐지
+      <img src="https://github.com/JEMinn/open_CV/assets/160000163/52f0453a-3599-437b-84bd-ce29c2370ba9"  width="400" height="200"/>
+    - 눈의 종횡비 계산식
+      <img src="https://github.com/JEMinn/open_CV/assets/160000163/70aae36a-597d-4484-8312-ff0d3b53668c"  width="180" height="100"/>
 
+  3. YOLOv8(You Only Look Once)
 
 
 <img src="https://github.com/JEMinn/open_CV/assets/160000163/78457f6c-6f03-4c7f-9be2-77c7bed02c94"  width="400" height="400"/>
 
 
-<img src="https://github.com/JEMinn/open_CV/assets/160000163/52f0453a-3599-437b-84bd-ce29c2370ba9"  width="400" height="400"/>
+
 
 <img src="https://github.com/JEMinn/open_CV/assets/160000163/3c160c2b-14a3-4370-8222-00fcec300957"  width="500" height="300"/>
 
