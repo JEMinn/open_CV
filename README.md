@@ -22,6 +22,7 @@
     - LBPH 모델로 얼굴 인식을 통한 등록자 구분
     - LANDMARK, YOLOV8 두가지 모델을 이용하여 졸음 감지 구현
 
+
 - **모델 소개**
   1. LBPH 모델 (Local Binary Pattern Histogram)
      - 얼굴 인식 및 검출을 위한 특징 추출 방법
@@ -46,6 +47,16 @@
       <img src="https://github.com/JEMinn/open_CV/assets/160000163/70aae36a-597d-4484-8312-ff0d3b53668c"  width="180" height="100"/>
 
   3. YOLOv8(You Only Look Once)
+    - 객체 검출을 위한 딥러닝 모델로, 단일 네트워크 구조를 사용하여 이미지에서 객체의 위치와 클래스를 실시간으로 예측
+    - 객체 검출 및 추적, 자율 주행 차량, 보안 시스템 등 다양한 응용 분야에서 사용
+      <img src="https://github.com/JEMinn/open_CV/assets/160000163/3c160c2b-14a3-4370-8222-00fcec300957"  width="400" height="200"/>
+    - 아래와 같이 모델이 예측한 빨간색 바운딩 박스(predicted bounding box)와 사람이 사물의 위치에 라벨링한 초록색 정답 바운딩 박스(ground-truth bounding box)가 최대한 가까워지도록 학습
+    - IoU 임계값이 0.5 이상인 경우, 모델이 예측한 박스와 실제 객체의 박스가 충분히 겹친 것으로 간주되어 해당 예측은 일반적으로 정확하게 객체를 감지한 것으로 판단
+      <img src="https://github.com/JEMinn/open_CV/assets/160000163/d983d055-dc43-4b92-9432-948771fc5059"  width="300" height="150"/>
+      <img src="https://github.com/JEMinn/open_CV/assets/160000163/a2606001-0fa7-4e24-a3ce-ad9b1c096f2c"  width="300" height="150"/>
+
+- **내용 소개**
+
 
 
 <img src="https://github.com/JEMinn/open_CV/assets/160000163/78457f6c-6f03-4c7f-9be2-77c7bed02c94"  width="400" height="400"/>
@@ -53,13 +64,8 @@
 
 
 
-<img src="https://github.com/JEMinn/open_CV/assets/160000163/3c160c2b-14a3-4370-8222-00fcec300957"  width="500" height="300"/>
 
 
-
-<img src="https://github.com/JEMinn/open_CV/assets/160000163/d983d055-dc43-4b92-9432-948771fc5059"  width="300" height="150"/>
-
-<img src="https://github.com/JEMinn/open_CV/assets/160000163/a2606001-0fa7-4e24-a3ce-ad9b1c096f2c"  width="300" height="150"/>
 
 
 
