@@ -11,6 +11,7 @@
   - **기능**
     - LBPH 모델로 얼굴 인식을 통한 등록자 구분
     - LANDMARK, YOLOV8 두가지 모델을 이용하여 졸음 감지 구현
+    - HTML&CSS를 이용하여 FLASK 웹페이지 제작 
 
   - **참여자**
     - 민지은, 송창훈, 양승원 총 3명
@@ -21,6 +22,7 @@
   - **Flow Chart**
   <img src="https://github.com/JEMinn/open_CV/assets/160000163/53620040-6e85-4dbc-9a70-0f9560c980cd"  width="430" height="500"/>
 
+---
 
 - **모델 소개**
   1. LBPH 모델 (Local Binary Pattern Histogram)
@@ -54,6 +56,8 @@
       <img src="https://github.com/JEMinn/open_CV/assets/160000163/d983d055-dc43-4b92-9432-948771fc5059"  width="300" height="150"/>
       <img src="https://github.com/JEMinn/open_CV/assets/160000163/a2606001-0fa7-4e24-a3ce-ad9b1c096f2c"  width="300" height="150"/>
 
+---
+
 - **내용 소개**
   1. 데이터 수집
     <img src="https://github.com/JEMinn/open_CV/assets/160000163/51f1b888-c25e-4dcc-8646-b2e825917047"  width="350" height="200"/>
@@ -80,7 +84,6 @@
     <img src="https://github.com/JEMinn/open_CV/assets/160000163/783f2728-3c16-4515-be6b-d3c4bea37f1c"  width="500" height="300"/>
     - LBPH 모델을 사용한 안면인식 후 등록자에 한하여 차량 잠금해제가 가능하며, LANDMARK 및 YOLOv8 두가지 버전의 모델로 졸음운전 시 사운드 실행을 구현함
     - (졸업운전 관련 모델 서치하였을 때 LANDMARK와 YOLOv8 버전 모두 구현하고 싶어 두가지로 진행하였음)
-
 
 
 
