@@ -5,7 +5,8 @@
 - **프로젝트 소개**
 
   - **목적**
-    - 학습한 딥러닝을 토대로 자동차의 불법적인 사용이나 졸음 운전으로 인한 교통사고로 인한 사망 및 부상을 방지하기 위해 해당 프로젝트 기획함
+    - 졸음운전으로 인하여 차종, 계절, 위치에 관계없이 교통사고가 빈번하게 발생하며, 현 미국에서 USB로 기아차에 시동거는 방법을 담은 틱톡 챌린지 영상 공유된 이후로 기아차와 현대차 도난이 급증되어 중대한 문제로 작용하고 있음
+    - 이에 따라 학습한 딥러닝을 토대로 자동차의 불법적인 사용이나 졸음 운전으로 인한 교통사고로 인한 사망 및 부상을 방지하기 위해 해당 프로젝트 기획함
     - 또한 등록된 운전자 식별 및 그에 따른 기록은 운전자의 안전 및 차량 사용 통계를 수집할 수 있는 기회 제공할 수 있는 기능 추가
 
   - **기능**
@@ -55,10 +56,16 @@
       <img src="https://github.com/JEMinn/open_CV/assets/160000163/a2606001-0fa7-4e24-a3ce-ad9b1c096f2c"  width="300" height="150"/>
 
 - **내용 소개**
+  1. 데이터 수집
+    <img src="https://github.com/JEMinn/open_CV/assets/160000163/51f1b888-c25e-4dcc-8646-b2e825917047"  width="350" height="200"/>
+    - LBPH와 YOLOv8 모델은 사진을 직접 촬영하여 수집
+    - LANDMARK 모델의 경우 눈의 횡종비로 측정하기에 따로 수집이 필요하지 않음
 
+  2. 데이터 전처리
+    <img src="https://github.com/JEMinn/open_CV/assets/160000163/e6cde029-13ab-4102-a15c-d91717c9f0cf"  width="350" height="200"/>
 
-
-<img src="https://github.com/JEMinn/open_CV/assets/160000163/78457f6c-6f03-4c7f-9be2-77c7bed02c94"  width="400" height="400"/>
+  3. 모델 학습 및 평가
+    <img src="https://github.com/JEMinn/open_CV/assets/160000163/78457f6c-6f03-4c7f-9be2-77c7bed02c94"  width="400" height="400"/>
 
 
 
