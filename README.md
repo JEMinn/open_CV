@@ -79,7 +79,7 @@
  　
     <img src="https://github.com/JEMinn/open_CV/assets/160000163/e6cde029-13ab-4102-a15c-d91717c9f0cf"  width="350" height="200"/>
 
-  4. **모델 학습 및 평가**
+  3. **모델 학습 및 평가**
      
     - LBPH
     
