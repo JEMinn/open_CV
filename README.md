@@ -1,4 +1,3 @@
-
 ### 프로젝트 명 : 차량 얼굴인식 및 졸음운전 방지 서비스 (Facial recognition & drawsy detection Project)
 ---
 
@@ -65,7 +64,25 @@
     <img src="https://github.com/JEMinn/open_CV/assets/160000163/e6cde029-13ab-4102-a15c-d91717c9f0cf"  width="350" height="200"/>
 
   3. 모델 학습 및 평가
-    <img src="https://github.com/JEMinn/open_CV/assets/160000163/78457f6c-6f03-4c7f-9be2-77c7bed02c94"  width="400" height="400"/>
+    - LBPH
+      <img src="https://github.com/JEMinn/open_CV/assets/160000163/78457f6c-6f03-4c7f-9be2-77c7bed02c94"  width="300" height="300"/>
+      - 차량 얼굴인식을 통해 등록된 운전자 또는 외부인 식별 및 DB 수집 가능
+
+    - YOLOv8
+      <img src="https://github.com/JEMinn/open_CV/assets/160000163/93b36f34-7f5c-489e-bacb-f0458cbc426b"  width="350" height="200"/>
+      <img src="https://github.com/JEMinn/open_CV/assets/160000163/c21db574-0dbe-41da-83b0-fe38dee483eb"  width="700" height="100"/>
+      - Box(Precision) : 바운딩 박스 정밀도 0.975 / Recall : 재현율 0.952 / mAP50 : 평균 정밀도 50%는 0.995 / mAP50-95 : 50~95%는 0.853
+      - 전반적으로 높은 정밀도와 Recall을 보여 "awake" 및 "drowsy" 클래스에 대한 성능이 좋은 것으로 보여짐
+      - 단, 일부 객체의 바운딩 박스는 50% 이상의 IoU에서 정밀도가 하락함
+      - 이 결과를 토대로 모델 조정 또는 추가적인 훈련 수행 후 해당 성능 향상 가능
+     
+  4. 웹플라스크 구현
+    <img src="https://github.com/JEMinn/open_CV/assets/160000163/783f2728-3c16-4515-be6b-d3c4bea37f1c"  width="500" height="300"/>
+    - LBPH 모델을 사용한 안면인식 후 등록자에 한하여 차량 잠금해제가 가능하며, LANDMARK 및 YOLOv8 두가지 버전의 모델로 졸음운전 시 사운드 실행을 구현함
+    - (졸업운전 관련 모델 서치하였을 때 LANDMARK와 YOLOv8 버전 모두 구현하고 싶어 두가지로 진행하였음)
+
+
+
 
 
 
