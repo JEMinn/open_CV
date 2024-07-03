@@ -33,7 +33,7 @@
          　
   2. **LANDMARK**
     - 'dlib'의 사전 훈련된 모델로 얼굴의 68개 랜드마크 예측
-    - 졸음운전 방지를 위해 눈 종횡비 이용
+    - 졸음운전 방지를 위해 눈 종횡비 이용<br>
       <img src="https://github.com/JEMinn/open_CV/assets/160000163/52f0453a-3599-437b-84bd-ce29c2370ba9"  width="400" height="200"/>
     - 눈의 종횡비 계산식
       
