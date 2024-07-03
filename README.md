@@ -41,9 +41,9 @@
 　
   3. **YOLOv8(You Only Look Once)**
       
-    - 객체 검출을 위한 딥러닝 모델로, 단일 네트워크 구조를 사용하여 이미지에서 객체의 위치와 클래스를 실시간으로 예측
+    - 객체 검출을 위한 딥러닝 모델
   　
-    - 객체 검출 및 추적, 자율 주행 차량, 보안 시스템 등 다양한 응용 분야에서 사용
+    - 이미지에서 객체의 위치와 클래스를 실시간으로 예측
   　
       <img src="https://github.com/JEMinn/open_CV/assets/160000163/3c160c2b-14a3-4370-8222-00fcec300957"  width="400" height="200"/>
     - 아래와 같이 모델이 예측한 빨간색 바운딩 박스(predicted bounding box)와 사람이 사물의 위치에 라벨링한 초록색 정답 바운딩 박스(ground-truth bounding box)가 최대한 가까워지도록 학습
